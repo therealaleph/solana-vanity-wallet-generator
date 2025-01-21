@@ -1,0 +1,12 @@
+[package]
+name = "sol_vanity_address_generator"
+version = "1.0.0"
+edition = "2025"
+
+[dependencies]
+solana-sdk = "1.14"
+rand = "0.7"
+rand_core = "0.5"
+bs58 = "0.4"
+num-format = "0.4"
+num_cpus = "1.15"
