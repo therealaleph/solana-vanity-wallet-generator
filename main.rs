@@ -15,7 +15,7 @@ fn generate_keypair() -> Keypair {
     use rand::rngs::OsRng;
     Keypair::generate(&mut OsRng)
 }
-/
+
 fn matches_prefix_postfix(
     public_key: &str,
     prefix: &str,
